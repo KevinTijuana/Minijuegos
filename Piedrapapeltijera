@@ -1,3 +1,17 @@
 Main
-string[] opciones = piedra, papel, tijera // opciones[0]
+String[] opciones = piedra, papel, tijera // opciones[0]
+int rondas, intentos, contador PC, contador jugador
+string jugada, nombre jugadorA, nombre jugadorB, jugadaPC
+
+Repetir rondas hasta que lleuge a 3
+mostrar "elige piedra papel o tijera"
+leer jugada
+jugadaPC = opciones[Random(0,2)]
+Si jugada == jugadaPC
+entonces
+mostrar "empate"
+finSi
+finRepetir
+
+
 FinMain
