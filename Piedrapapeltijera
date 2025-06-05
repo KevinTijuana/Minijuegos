@@ -1,0 +1,3 @@
+Main
+string[] opciones = piedra, papel, tijera // opciones[0]
+FinMain
